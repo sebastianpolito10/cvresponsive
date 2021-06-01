@@ -9,7 +9,7 @@ box-sizing: border-box;
 
 body{
 font-family: 'PT Sans', sans-serif;
-background-color: blue;
+background-color: #afeaed;
 }
 
 header{
@@ -138,6 +138,7 @@ margin-right: 5%;
 
 body{
 font-family: 'PT Sans', sans-serif;
+background-color: #afeaed;
 }
 
 #contenedor{
@@ -208,16 +209,15 @@ margin: 3%;
 }
 
 .delpo2 p{
-font-size: 22px;
+font-size: 20px;
 text-align: center;
 letter-spacing: 0.09em;
 }
 
 .delpo3 p{
-font-size: 18px;
+font-size: 20px;
 text-align: center;
 letter-spacing: 0.15em;
-font-weight: bold;
 margin: 3%;
 }
 
@@ -267,7 +267,7 @@ width: 90%;
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
-background-color: cyan;
+background-color: #00f3ff;
 position: center;
 margin-left: 5%;
 margin-right: 5%;
@@ -340,11 +340,11 @@ letter-spacing: 0.09em;
 }
 
 .image img{
-width: 90%;
+width: 85%;
 }
 
 .delpo1 img{
-width: 90%;
+width: 85%;
 }
 
 { }	
