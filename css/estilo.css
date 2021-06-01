@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: 'PT Sans', sans-serif;
+background-color: #afeaed;
+}
+
+header{
+text-align: center;
+width: 70%;
+font-weight: bold;
+background-color: #000;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+#contenedor{
+width: 70%;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+background-color: white;
+position: center;
+margin-left: 15%;
+margin-right: 15%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.delpo1{
+width: 100%;
+}
+
+.delpo2{
+width: 100%;
+}
+
+.delpo3{
+width: 100%;
+}
+
+.delpo2 h2{
+font-weight: bold;
+font-size: 45px;
+}	
+
+.delpo2 ul{
+letter-spacing: 0.08em;
+margin: 5%;
+font-size: 18px;
+font-family: 'PT Sans', sans-serif;
+text-align: center;
+}
+
+.delpo2 h3{
+font-size: 30px;
+text-align: center;
+margin: 3%;
+}
+
+.delpo2 p{
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.09em;
+}
+
+.delpo3 p{
+font-size: 18px;
+text-align: center;
+letter-spacing: 0.09em;
+margin: 3%;
+}
+
+.h1{
+font-size: 30px;
+background-color: #60cbd1;
+font-weight: bold;
+border: 5%;
+text-align: center;
+}
+
+.h2{
+font-size: 30px;
+background-color: #2acbd4;
+border: 5%;
+padding-top: 5%;
+text-align: center;
+}
+
+.h3{
+font-size: 30px;
+background-color: #8dedf2;
+border: 5%;
+padding: 5%;
+text-align: center;
+}
+
+.h4{
+font-size: 30px;
+background-color: #8dedf2;
+border: 5%;
+padding: 5%;
+text-align: center;
+}
+
+.delpo1 img{
+width: 38%;
+margin: 1%;
+}
+
+.image{ 
+padding-top: 5%;
+padding-bottom: 5%;
+margin-left: 5%;
+}
+
+.image img{
+width: 41%;
+margin-left: 5%;
+}
+
+@media screen and (min-width:561px) and (max-width:960px){
+header{
+text-align: center;
+width: 90%;
+font-weight: bold;
+background-color: #000;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+body{
+font-family: 'PT Sans', sans-serif;
+background-color: #afeaed;
+}
+
+#contenedor{
+width: 90%;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+background-color: white;
+position: center;
+margin-left: 5%;
+margin-right: 5%;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.delpo1{
+width: 100%;
+}
+
+.delpo2{
+width: 100%;
+}
+
+.delpo3{
+width: 100%;
+}
+
+.h1{
+font-size: 30px;
+background-color: #60cbd1;
+font-weight: bold;
+border: 5%;
+text-align: center;
+}
+
+.h2{
+font-size: 30px;
+background-color: #2acbd4;
+padding-top: 2%;
+text-align: center;
+}
+
+.h3{
+font-size: 30px;
+background-color: #8dedf2;
+border: 5%;
+padding: 5%;
+text-align: center;
+}
+
+.h4{
+font-size: 30px;
+background-color: #8dedf2;
+border: 5%;
+padding: 5%;
+text-align: center;
+}
+
+.delpo1 h3{
+font-size: 20px;
+text-align: center;
+}
+
+.delpo2 h3{
+font-size: 30px;
+text-align: center;
+margin: 3%;
+}
+
+.delpo2 p{
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.09em;
+}
+
+.delpo3 p{
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.15em;
+margin: 3%;
+}
+
+.info{
+padding: 5%;
+}
+
+.delpo1 img{
+width: 38%;
+}
+
+.info1{
+padding: 5%;
+}
+
+.image{ 
+padding-top: 5%;
+float: center;
+padding-bottom: 5%;
+margin-left: 5%;
+}
+
+.image img{
+width: 41%;
+margin-left: 5%;
+}
+
+
+}
+
+@media screen and (min-width:0px) and (max-width:560px){
+header{
+text-align: center;
+width: 90%;
+font-weight: bold;
+background-color: #000;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+body{
+font-family: 'PT Sans', sans-serif;
+}
+
+#contenedor{
+width: 90%;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+background-color: #00f3ff;
+position: center;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.delpo1{
+width: 100%;
+}
+
+.delpo2{
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.h1{
+font-size: 15px;
+background-color: #60cbd1;
+font-weight: bold;
+border: 10%;
+}
+
+.h2{
+font-size: 19px;
+background-color: #2acbd4;
+text-align: center;
+border: 5%;
+padding-top: 2%;
+}
+
+.h3{
+font-size: 18px;
+background-color: #8dedf2;
+border: 5%;
+padding: 5%;
+text-align: center;
+}
+
+.h4{
+font-size: 18px;
+background-color: #8dedf2;
+padding: 5%;
+text-align: center;
+}
+
+.delpo2 h2{
+font-size: 30px;
+}
+
+.delpo2 h3{
+font-size: 19px;
+}
+
+.delpo2 p{
+font-size: 17px;
+}
+
+.delpo3 h3{
+font-size: 30px;
+}
+
+.delpo3 h4{
+font-size: 30px;
+}
+
+.delpo3 p{
+font-size: 15px;
+text-align: center;
+letter-spacing: 0.09em;
+}
+
+.image img{
+width: 85%;
+}
+
+.delpo1 img{
+width: 85%;
+}
+
+{ }	
